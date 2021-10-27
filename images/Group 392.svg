@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.851" height="51.226" viewBox="0 0 44.851 51.226">
+  <g id="Group_392" data-name="Group 392" transform="translate(-20 -19.1)">
+    <path id="Fill_1" data-name="Fill 1" d="M40.336,34.413a11.091,11.091,0,0,0-6.131-4.373l-5.786-1.621V24.261a10.38,10.38,0,0,0,4.151-8,2.772,2.772,0,1,0,.008-5.077V10.4A10.4,10.4,0,0,0,22.181,0h0a10.4,10.4,0,0,0-10.4,10.4v.787a2.773,2.773,0,1,0,.008,5.077,10.38,10.38,0,0,0,4.151,8v4.159L10.157,30.04a11.091,11.091,0,0,0-6.131,4.373L0,40.236v4.126H44.362V40.236Z" transform="translate(20.357 25.964)" fill="#ffcf83"/>
+    <path id="Fill_4" data-name="Fill 4" d="M3.643,2.079A10.373,10.373,0,0,1,0,1.422,10.337,10.337,0,0,0,5.584,3.05a10.355,10.355,0,0,0,4.3-.93V0A10.351,10.351,0,0,1,3.643,2.079Z" transform="translate(38.894 50.224)" fill="#f7a74f"/>
+    <path id="Stroke_6" data-name="Stroke 6" d="M2.064,1.929A1.526,1.526,0,0,0,0,.12" transform="translate(30.438 38.163)" fill="none" stroke="#00004d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Stroke_8" data-name="Stroke 8" d="M.054,1.929A1.526,1.526,0,0,1,2.119.12" transform="translate(52.519 38.163)" fill="none" stroke="#00004d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="mouth_twinkle" data-name="mouth/twinkle" transform="translate(37.661 45.706)">
+      <rect id="mouth_twinkle_background" data-name="mouth/twinkle background" width="9.754" height="4.877" fill="#ffcf83"/>
+      <path id="twinkle" d="M3.063,0A2.155,2.155,0,0,1,1.516.568,2.185,2.185,0,0,1,0,.032" transform="translate(3.346 1.097)" fill="none" stroke="#00004d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <path id="t-shirt" d="M44.851,11.947,40.781,6.06a11.213,11.213,0,0,0-6.2-4.421L28.733,0a6.307,6.307,0,0,1-6.307,6.307h0A6.307,6.307,0,0,1,16.118,0l-5.85,1.639A11.214,11.214,0,0,0,4.07,6.06L0,11.947v4.171H44.851Z" transform="translate(20 54.207)" fill="#80c43b"/>
+    <g id="eyes_happy" data-name="eyes/happy" transform="translate(33.723 38.398)">
+      <rect id="eyes_happy_background" data-name="eyes/happy background" width="18" height="6" transform="translate(0.277 -0.298)" fill="#ffcf83"/>
+      <path id="eye-right" d="M1.373,1.716a2.047,2.047,0,0,1,1.173.368A1.372,1.372,0,1,0,0,1.373a1.363,1.363,0,0,0,.2.711,2.047,2.047,0,0,1,1.173-.368" transform="translate(13.195 1.083)" fill="#00004d"/>
+      <path id="eye-left" d="M1.373,1.716a2.047,2.047,0,0,1,1.173.368A1.372,1.372,0,1,0,0,1.373a1.363,1.363,0,0,0,.2.711,2.047,2.047,0,0,1,1.173-.368" transform="translate(1.87 1.083)" fill="#00004d"/>
+    </g>
+    <g id="nose_default" data-name="nose/default" transform="matrix(0.999, 0.035, -0.035, 0.999, 39.814, 36.257)">
+      <rect id="nose_default_background" data-name="nose/default background" width="6.503" height="9.393" rx="3.251" transform="translate(0 0)" fill="#ffcf83"/>
+      <path id="nose" d="M.644,0l1.61,5.272L0,5.582" transform="translate(2.156 1.861)" fill="none" stroke="#00004d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <path id="long-05" d="M17.957,6.457A5.828,5.828,0,0,0,18,5.76a5.76,5.76,0,1,0-11.477.7A12.237,12.237,0,0,0,0,17.281c0,.2.006.394.016.59.09-.008.18-.014.272-.014a2.87,2.87,0,0,1,2.062.872A14.456,14.456,0,0,0,8.836,12.88,21.522,21.522,0,0,0,22.068,18.8a2.869,2.869,0,0,1,2.125-.941c.092,0,.182.005.271.014.01-.2.017-.392.017-.59A12.237,12.237,0,0,0,17.957,6.457" transform="translate(30.297 19.1)" fill="#00004d"/>
+  </g>
+</svg>

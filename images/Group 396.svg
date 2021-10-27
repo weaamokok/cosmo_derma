@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.484" height="46.626" viewBox="0 0 50.484 46.626">
+  <g id="Group_396" data-name="Group 396" transform="translate(-404 -25.012)">
+    <path id="Fill_1" data-name="Fill 1" d="M45.4,35.5a12.508,12.508,0,0,0-6.9-4.511l-6.513-1.672v-4.29a10.47,10.47,0,0,0,4.672-8.253,3.351,3.351,0,0,0,1.257.244,3,3,0,0,0,3.121-2.86,3,3,0,0,0-3.121-2.86,3.349,3.349,0,0,0-1.248.24v-.812C36.67,4.8,31.43,0,24.967,0h0c-6.463,0-11.7,4.8-11.7,10.727v.812a3.351,3.351,0,0,0-1.248-.24,3,3,0,0,0-3.121,2.86,3,3,0,0,0,3.121,2.86,3.35,3.35,0,0,0,1.257-.244,10.469,10.469,0,0,0,4.672,8.253v4.29l-6.513,1.672a12.508,12.508,0,0,0-6.9,4.511L0,41.51v4.256H49.934V41.51Z" transform="translate(404.402 25.871)" fill="#ffcf83"/>
+    <path id="Fill_4" data-name="Fill 4" d="M4.1,2.145A12.626,12.626,0,0,1,0,1.467a12.419,12.419,0,0,0,6.285,1.68,12.558,12.558,0,0,0,4.837-.96V0A12.361,12.361,0,0,1,4.1,2.145Z" transform="translate(425.267 50.9)" fill="#f7a74f"/>
+    <path id="Stroke_6" data-name="Stroke 6" d="M2.323,1.991a1.452,1.452,0,0,0,.061-.417A1.65,1.65,0,0,0,.668,0,1.848,1.848,0,0,0,0,.124" transform="translate(415.749 38.457)" fill="none" stroke="#00004d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Stroke_8" data-name="Stroke 8" d="M.061,1.991A1.452,1.452,0,0,1,0,1.573,1.65,1.65,0,0,1,1.716,0a1.85,1.85,0,0,1,.668.124" transform="translate(440.603 38.457)" fill="none" stroke="#00004d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="t-shirt" d="M50.484,12.326,45.9,6.252a12.646,12.646,0,0,0-6.977-4.561L32.342,0c0,3.594-3.178,6.507-7.1,6.507h0c-3.921,0-7.1-2.913-7.1-6.507L11.558,1.691A12.647,12.647,0,0,0,4.581,6.252L0,12.326v4.3H50.484Z" transform="translate(404 55.009)" fill="#fff"/>
+    <rect id="eyes_happy_background" data-name="eyes/happy background" width="19.269" height="7.708" transform="translate(419.691 37.425)" fill="#ffcf83"/>
+    <path id="eye-right" d="M1.545,1.77a2.452,2.452,0,0,1,1.32.379,1.32,1.32,0,0,0,.225-.733A1.485,1.485,0,0,0,1.545,0,1.485,1.485,0,0,0,0,1.416a1.32,1.32,0,0,0,.225.733,2.452,2.452,0,0,1,1.32-.379" transform="translate(434.299 39.816)" fill="#00004d"/>
+    <path id="eye-left" d="M1.545,1.77a2.452,2.452,0,0,1,1.32.379,1.32,1.32,0,0,0,.225-.733A1.485,1.485,0,0,0,1.545,0,1.485,1.485,0,0,0,0,1.416a1.32,1.32,0,0,0,.225.733,2.452,2.452,0,0,1,1.32-.379" transform="translate(421.551 39.816)" fill="#00004d"/>
+    <rect id="nose_default_background" data-name="nose/default background" width="6.869" height="9.922" rx="3.435" transform="matrix(0.999, 0.035, -0.035, 0.999, 426.521, 36.416)" fill="#ffcf83"/>
+    <path id="nose" d="M.743,0,2.538,5.434,0,5.761" transform="matrix(0.999, 0.035, -0.035, 0.999, 428.636, 38.484)" fill="none" stroke="#00004d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="head_hair_long_03" data-name="head/hair/long/03" transform="translate(414.518 25.012)">
+      <path id="long-03" d="M0,29.665l1.8-11.39a2.918,2.918,0,0,0,1.912-.161,11.094,11.094,0,0,0,4.435,8.544v3.007Zm21.478,0V26.658a11.092,11.092,0,0,0,4.435-8.543,2.921,2.921,0,0,0,1.913.161l1.8,11.39Zm2.781-18.438H18.953L17.5,6.959v4.268H5.366l-.481,2.4a2.953,2.953,0,0,0-2.166-1.177v0l.389-2.46A11.78,11.78,0,0,1,4.713,5.65a11.853,11.853,0,0,1,20.2,0,11.78,11.78,0,0,1,1.605,4.339l.389,2.46v0a2.953,2.953,0,0,0-2.166,1.177Z" transform="translate(0 0)" fill="#00004d"/>
+    </g>
+    <rect id="mouth_sad_background" data-name="mouth/sad background" width="7.804" height="5.853" transform="translate(425.559 44.977)" fill="#ffcf83"/>
+    <path id="sad" d="M2.611,0A1.6,1.6,0,0,1,1.292.666,1.6,1.6,0,0,1,0,.037" transform="translate(430.764 46.996) rotate(180)" fill="none" stroke="#00004d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
