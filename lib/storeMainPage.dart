@@ -4,9 +4,9 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'paintings.dart';
-import 'components/catagoryCard.dart';
-import 'components/catagoryIconCard.dart';
-import 'components/skinTypeCards.dart';
+import 'components/catagorySection.dart';
+import 'components/productsSetSection.dart';
+import 'components/listsOfSkintypeAndCategory.dart';
 import 'dart:ui' as ui;
 // import 'package:flutter_svg/flutter_svg.dart';
 
@@ -32,7 +32,8 @@ class _MainStorePageState extends State<MainStorePage> {
     print('width${MediaQuery.of(context).size.width}');
     print('he${MediaQuery.of(context).size.height}');
     return Scaffold(
-        backgroundColor: Color(0xfff48fb1),
+        bottomNavigationBar: SizedBox(height: 80, child: bottomNav),
+        backgroundColor: Color(0xff93b5c6),
         body: SafeArea(
           child: SingleChildScrollView(
             padding: EdgeInsets.all(0),
@@ -43,11 +44,11 @@ class _MainStorePageState extends State<MainStorePage> {
                 Stack(
                   //header stack that holds the logo and curve
                   children: [
-                    CircleAvatar(
-                      //logo
-                      radius: 60,
-                      child: Image(image: AssetImage('images/cos_logo.png')),
-                    ),
+                    // CircleAvatar(
+                    //   //logo
+                    //   radius: 50,
+                    //   child: Image(image: AssetImage('images/cos_logo.png')),
+                    // ),
                     CustomPaint(
                       //curve
                       size: Size(
@@ -62,8 +63,8 @@ class _MainStorePageState extends State<MainStorePage> {
                 ),
                 SizedBox(
                   //this sizedbox holds the painting in a certain daimantion
-                  width: 250,
-                  height: 300,
+                  width: 200,
+                  height: 250,
                   child: Padding(
                     //without this padding the paint will be touching the top
                     padding: const EdgeInsets.only(top: 30.0),
@@ -80,91 +81,12 @@ class _MainStorePageState extends State<MainStorePage> {
                     ),
                   ),
                 ),
-                Container(
-                  //the skin type section
-
-                  margin: EdgeInsets.only(
-                      top:
-                          343.0), //gives the space between the top and the white container
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(35),
-                        topRight: Radius.circular(35)),
-                  ),
-                  child: Column(
-                    //to put the 'skin type text and the cards on order '
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(
-                            top: 20.0,
-                            left:
-                                250), //padding for the text to put it away from the top of the container
-                        child: Text(
-                          'نوع البشرة',
-                          style: sectionTitleTextStyle,
-                          textAlign: TextAlign.left,
-                        ),
-                      ),
-                      Container(
-                        //this container holds the whole list view and controls the height of the card inside the listview
-                        margin: EdgeInsets.symmetric(
-                            vertical:
-                                20.0), //gives spacing between text and cards of listview
-                        height:
-                            200, //spicifying the height of this container is the key for the cards in the listview cuz the list doesn't has any height proprty for horizantial scrolling
-                        child: Stack(
-                          children: [
-                            ListOfSkinTypeCard(),
-                          ],
-                        ),
-                        color: Colors.white,
-                      )
-                    ],
-                  ),
-                ),
-                Container(
-                  //the skin type section
-                  margin: EdgeInsets.only(
-                      top:
-                          580.0), //gives the space between the top and the white container
-                  decoration: BoxDecoration(
-                    color: Color(0xfff0f0f0),
-                    borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(35),
-                        topRight: Radius.circular(35)),
-                  ),
-                  child: Column(
-                    //to put the 'skin type text and the cards on order '
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.only(
-                            top: 20.0,
-                            left:
-                                250), //padding for the text to put it away from the top of the container
-                        child: Text(
-                          'منتجات ',
-                          style: sectionTitleTextStyle,
-                          textAlign: TextAlign.left,
-                        ),
-                      ),
-                      Container(
-                        //this container holds the whole list view and controls the height of the card inside the listview
-                        margin: EdgeInsets.symmetric(
-                            vertical:
-                                20.0), //gives spacing between text and cards of listview
-                        height:
-                            150, //spicifying the height of this container is the key for the cards in the listview cuz the list doesn't has any height proprty for horizantial scrolling
-                        child: Stack(
-                          children: [
-                            ListOfCatagoryCard(),
-                          ],
-                        ),
-                        color: Colors.transparent,
-                      )
-                    ],
-                  ),
-                ),
+                ReusableSection(Colors.white, ListOfSkinTypeCard(), 285.0,
+                    'نوع البشرة           ', 200),
+                ReusableSection(Color(0xfff6f6f6), ListOfCatagoryCard(), 525.0,
+                    'منتجات                     ', 200),
+                ReusableSection(Colors.white, productCard(product), 760,
+                    'أكثر المنتجات مبيعاً', 300)
               ],
             ),
           ),

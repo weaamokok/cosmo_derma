@@ -1,7 +1,7 @@
 //list view for skin type section //list view for catagry section
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
-import 'catagoryCard.dart';
+import 'catagorySection.dart';
 import 'package:cosmo_derma/paintings.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'componenetCons/componentConst.dart';
@@ -17,11 +17,11 @@ class ListOfSkinTypeCard extends StatelessWidget {
         scrollDirection:
             Axis.horizontal, //so the elements can be scrooled horizontlly
         children: [
-          CatagoryCard(svgNormalSkin, 'عادية', Colors.pink[50]),
-          CatagoryCard(svgOilySkin, 'دهنية', Colors.pink[50]),
-          CatagoryCard(svgDrySkin, 'جافة', Colors.pink[50]),
-          CatagoryCard(svgSensetiveSkin, 'حساسة', Colors.pink[50]),
-          CatagoryCard(svgcombineSkin, 'مختلطة', Colors.pink[50])
+          CatagoryCard(svgNormalSkin, 'عادية', Colors.white),
+          CatagoryCard(svgOilySkin, 'دهنية', Colors.white),
+          CatagoryCard(svgDrySkin, 'جافة', Colors.white),
+          CatagoryCard(svgSensetiveSkin, 'حساسة', Colors.white),
+          CatagoryCard(svgcombineSkin, 'مختلطة', Colors.white)
         ],
       ),
     );
@@ -38,11 +38,11 @@ class ListOfCatagoryCard extends StatelessWidget {
         scrollDirection:
             Axis.horizontal, //so the elements can be scrooled horizontlly
         children: [
-          CatagoryCard(svgcream, 'واقي شمس', Colors.pink[50]),
-          CatagoryCard(svgCleanzer, 'غسول', Colors.pink[50]),
-          CatagoryCard(svgMosturizer, 'مرطب', Colors.pink[50]),
-          CatagoryCard(svgVitimns, 'فيتامين', Colors.pink[50]),
-          CatagoryCard(svgSerum, 'سيروم', Colors.pink[50])
+          CatagoryCard(svgcream, 'واقي شمس', Colors.white),
+          CatagoryCard(svgCleanzer, 'غسول', Colors.white),
+          CatagoryCard(svgMosturizer, 'مرطب', Colors.white),
+          CatagoryCard(svgVitimns, 'فيتامين', Colors.white),
+          CatagoryCard(svgSerum, 'سيروم', Colors.white)
         ],
       ),
     );
