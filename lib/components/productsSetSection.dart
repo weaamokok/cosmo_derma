@@ -13,7 +13,7 @@ class productCard extends StatelessWidget {
     this.ProductImage,
   );
 
-  final Image ProductImage;
+  final List<dynamic> ProductImage;
 
   @override
   Widget build(BuildContext context) {
@@ -24,10 +24,9 @@ class productCard extends StatelessWidget {
         children: [
           Expanded(
             child: Container(
-              width:
-                  250, //width and hieght of the pink card that contains illustration
+              width: 250, //width and hieght of the first big product
               height: 280,
-              child: ProductImage,
+              child: ProductImage[0],
               margin: EdgeInsets.all(10.0), //margin around each pink card
               decoration: BoxDecoration(
                 color: Colors.transparent,
@@ -54,7 +53,7 @@ class productCard extends StatelessWidget {
                   width:
                       100, //width and hieght of the pink card that contains illustration
                   height: 100,
-                  child: ProductImage,
+                  child: ProductImage[1],
                   margin: EdgeInsets.all(10.0), //margin around each pink card
                   decoration: BoxDecoration(
                     color: Colors.transparent,
@@ -79,7 +78,7 @@ class productCard extends StatelessWidget {
                   width:
                       100, //width and hieght of the pink card that contains illustration
                   height: 100,
-                  child: ProductImage,
+                  child: ProductImage[2],
                   margin: EdgeInsets.all(10.0), //margin around each pink card
                   decoration: BoxDecoration(
                     color: Colors.transparent,

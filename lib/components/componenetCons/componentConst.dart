@@ -1,4 +1,5 @@
 //here all the constants fot the components
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -29,8 +30,11 @@ final Widget svgVitimns =
 final Widget svgSerum =
     SvgPicture.asset('images/Group 160.svg', fit: BoxFit.scaleDown);
 //---------------------images
-final Image product =
-    Image.asset('images/productTest.png', fit: BoxFit.fitWidth);
+final List<dynamic> product = [
+  Image.asset('images/productTest.png', fit: BoxFit.fitWidth),
+  Image.asset('images/test2.jpg', fit: BoxFit.fitWidth),
+  Image.asset('images/test3.jpg', fit: BoxFit.fitWidth)
+];
 //   --------------svg icons
 final Widget more = SvgPicture.asset(
   'images/icons/more-fill.svg',
@@ -63,29 +67,3 @@ final TextStyle sectionTitleTextStyle = GoogleFonts.cairo(
     fontWeight: FontWeight.w400,
     color: textColor,
     fontSize: 20);
-final Widget bottomNav = BottomNavigationBar(
-  type: BottomNavigationBarType.fixed,
-  backgroundColor: Color(0xFFfcfcfc),
-  selectedItemColor: Primaryblue,
-  unselectedItemColor: Color(0xffd3c8c7),
-  showSelectedLabels: true,
-  showUnselectedLabels: false,
-  selectedFontSize: 12,
-  unselectedFontSize: 12,
-  onTap: (value) {
-    // Respond to item press.
-  },
-  items: [
-    BottomNavigationBarItem(
-      label: 'المزيد',
-      icon: Icon(Icons.more_horiz_rounded),
-    ),
-    BottomNavigationBarItem(label: 'عروض', icon: Icon(Icons.local_offer_sharp)),
-    BottomNavigationBarItem(
-        label: 'تصنيفات', icon: Icon(Icons.widgets_rounded)),
-    BottomNavigationBarItem(
-      label: 'حسابك',
-      icon: Icon(Icons.person),
-    ),
-  ],
-);

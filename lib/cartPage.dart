@@ -1,6 +1,8 @@
+import 'package:cosmo_derma/components/bottomNav.dart';
 import 'package:cosmo_derma/components/componenetCons/componentConst.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'components/bottomNav.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'paintings.dart';
@@ -32,7 +34,7 @@ class _MainStorePageState extends State<MainStorePage> {
     print('width${MediaQuery.of(context).size.width}');
     print('he${MediaQuery.of(context).size.height}');
     return Scaffold(
-        bottomNavigationBar: SizedBox(height: 80, child: bottomNav),
+        bottomNavigationBar: SizedBox(height: 80, child: BottomNav()),
         backgroundColor: Color(0xff93b5c6),
         body: SafeArea(
           child: SingleChildScrollView(

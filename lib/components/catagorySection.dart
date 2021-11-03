@@ -42,7 +42,7 @@ class ReusableSection extends StatelessWidget {
             margin: EdgeInsets.symmetric(
                 vertical:
                     10.0), //gives spacing between text and cards of listview
-            height:
+            height: (MediaQuery.of(context).size.height) *
                 heigthOfcon, //spicifying the height of this container is the key for the cards in the listview cuz the list doesn't has any height proprty for horizantial scrolling
             child: Stack(
               children: [
