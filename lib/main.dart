@@ -8,7 +8,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  // T his widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       routes: {
         '0': (context) => MainStorePage(), //the cart page
-        '1': (context) => MainStorePage(), //the home page
+        '1': (context) => HomePage(), //the home page
         '2': (context) => MainStorePage(), //the categories page
         '3': (context) => MainStorePage(), //the accounts page
       },

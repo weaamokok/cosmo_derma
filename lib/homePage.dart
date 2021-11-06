@@ -79,8 +79,14 @@ class _HomepageState extends State<Homepage> {
                 //   ),
                 // ),
 
-                ReusableSection(Color(0xffffffff), ContentOfHomePageSection(),
-                    86.0, '                     ', 1),
+                Expanded(
+                  child: ReusableSection(
+                      Color(0xffffffff),
+                      ContentOfHomePageSection(),
+                      96.0,
+                      '                     ',
+                      1),
+                ),
               ],
             ),
           ),

@@ -32,9 +32,17 @@ final Widget svgSerum =
 //---------------------images
 final List<dynamic> product = [
   Image.asset('images/productTest.png', fit: BoxFit.fitWidth),
-  Image.asset('images/test2.jpg', fit: BoxFit.fitWidth),
-  Image.asset('images/test3.jpg', fit: BoxFit.fitWidth)
+  ClipRRect(
+    child: Image.asset('images/test2.jpg', fit: BoxFit.fitWidth),
+    borderRadius: BorderRadius.circular(30.0),
+  ),
+  ClipRRect(
+    child: Image.asset('images/test3.jpg', fit: BoxFit.fitWidth),
+    borderRadius: BorderRadius.circular(30.0),
+  ),
 ];
+final Image svr = Image.asset('images/svr.png', fit: BoxFit.scaleDown);
+final Image elogo = Image.asset('images/Elogo.jpg', fit: BoxFit.scaleDown);
 //   --------------svg icons
 final Widget more = SvgPicture.asset(
   'images/icons/more-fill.svg',
@@ -62,6 +70,10 @@ final Widget user = SvgPicture.asset(
 //     TextStyle(color: Colors.black87, fontFamily: 'Madani', fontSize: 18);
 final TextStyle catagorySmallTextStyle = GoogleFonts.cairo(
     fontWeight: FontWeight.normal, color: textColor, fontSize: 13);
+final TextStyle searchBarText = GoogleFonts.cairo(
+    fontWeight: FontWeight.normal,
+    color: textColor.withOpacity(.5),
+    fontSize: 14);
 final TextStyle sectionTitleTextStyle = GoogleFonts.cairo(
     textBaseline: TextBaseline.alphabetic,
     fontWeight: FontWeight.w400,

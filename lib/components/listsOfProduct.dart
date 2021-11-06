@@ -5,25 +5,23 @@ import 'catagorySection.dart';
 import 'package:cosmo_derma/paintings.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'componenetCons/componentConst.dart';
+import 'listsOfSkintypeAndCategory.dart';
 import 'catagoryIconCard.dart';
+import 'topOfHomepageSection.dart';
 
 class ContentOfHomePageSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Directionality(
-      textDirection: TextDirection.rtl,
-      child: ListView(
-        //of containers to hold the caed and the text beneth
-        scrollDirection:
-            Axis.vertical, //so the elements can be scrooled horizontlly
-        children: [
-          // CatagoryCard(svgNormalSkin, 'عادية', Colors.white),
-          // CatagoryCard(svgOilySkin, 'دهنية', Colors.white),
-          // CatagoryCard(svgDrySkin, 'جافة', Colors.white),
-          // CatagoryCard(svgSensetiveSkin, 'حساسة', Colors.white),
-          // CatagoryCard(svgcombineSkin, 'مختلطة', Colors.white)
-        ],
-      ),
+    return Column(
+      children: [
+        searchBar(),
+        BrandSection(ListOfBrandCard(), 0, 'إختر ماركة', .2)
+        // CatagoryCard(svgNormalSkin, 'عادية', Colors.white),
+        // CatagoryCard(svgOilySkin, 'دهنية', Colors.white),
+        // CatagoryCard(svgDrySkin, 'جافة', Colors.white),
+        // CatagoryCard(svgSensetiveSkin, 'حساسة', Colors.white),
+        // CatagoryCard(svgcombineSkin, 'مختلطة', Colors.white)
+      ],
     );
   }
 }

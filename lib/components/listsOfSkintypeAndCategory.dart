@@ -48,3 +48,24 @@ class ListOfCatagoryCard extends StatelessWidget {
     );
   }
 }
+
+class ListOfBrandCard extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Directionality(
+      textDirection: TextDirection.rtl,
+      child: ListView(
+        //of containers to hold the caed and the text beneth
+        scrollDirection:
+            Axis.horizontal, //so the elements can be scrooled horizontlly
+        children: [
+          CatagoryCard(svr, 'SVR ', Colors.transparent),
+          CatagoryCard(elogo, 'Eucerin', Colors.transparent),
+          CatagoryCard(svr, 'SVR', Colors.transparent),
+          CatagoryCard(elogo, 'Eucerin', Colors.transparent),
+          CatagoryCard(svr, 'SVR', Colors.transparent),
+        ],
+      ),
+    );
+  }
+}

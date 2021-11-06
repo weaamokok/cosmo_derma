@@ -84,11 +84,13 @@ class _MainStorePageState extends State<MainStorePage> {
                   ),
                 ),
                 ReusableSection(Colors.white, ListOfSkinTypeCard(), 285.0,
-                    'نوع البشرة           ', 200),
+                    'نوع البشرة           ', .5),
                 ReusableSection(Color(0xfff6f6f6), ListOfCatagoryCard(), 525.0,
-                    'منتجات                     ', 200),
+                    'منتجات                     ', .5),
                 ReusableSection(Colors.white, productCard(product), 760,
-                    'أكثر المنتجات مبيعاً', 300)
+                    'أكثر المنتجات مبيعاً', .4),
+                ReusableSection(Colors.white, productCard(product), 1110,
+                    'الأعلى تقيماً         ', .3)
               ],
             ),
           ),
