@@ -1,7 +1,9 @@
+import 'package:cosmo_derma/cartPage.dart';
 import 'package:cosmo_derma/homePage.dart';
 import 'package:flutter/material.dart';
 import 'loadingScreen.dart';
 import 'categoriesPage.dart';
+import 'welcomeScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,9 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.light(),
-      home: HomePage(),
+      initialRoute: '/',
       routes: {
-        '0': (context) => MainStorePage(), //the cart page
+        '/': (context) => ConcentricTransition(), //the cart page
+        '0': (context) => CartPage(), //the cart page
         '1': (context) => HomePage(), //the home page
         '2': (context) => MainStorePage(), //the categories page
         '3': (context) => MainStorePage(), //the accounts page

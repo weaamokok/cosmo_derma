@@ -18,16 +18,16 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Homepage();
+    return Homepagee();
   }
 }
 
-class Homepage extends StatefulWidget {
+class Homepagee extends StatefulWidget {
   @override
-  _HomepageState createState() => _HomepageState();
+  _HomepageeState createState() => _HomepageeState();
 }
 
-class _HomepageState extends State<Homepage> {
+class _HomepageeState extends State<Homepagee> {
   @override
   Widget build(BuildContext context) {
     String svgAsset = 'images/ilus.svg';

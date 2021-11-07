@@ -29,6 +29,19 @@ final Widget svgVitimns =
     SvgPicture.asset('images/Group 103.svg', fit: BoxFit.scaleDown);
 final Widget svgSerum =
     SvgPicture.asset('images/Group 160.svg', fit: BoxFit.scaleDown);
+final SvgPicture welcomPage = SvgPicture.asset(
+  'images/first.svg',
+);
+final SvgPicture storePage = SvgPicture.asset(
+  'images/storepage.svg',
+);
+final SvgPicture findpage = SvgPicture.asset(
+  'images/findPage.svg',
+);
+final SvgPicture blogPage = SvgPicture.asset(
+  'images/blogPage.svg',
+);
+
 //---------------------images
 final List<dynamic> product = [
   Image.asset('images/productTest.png', fit: BoxFit.fitWidth),
@@ -79,3 +92,16 @@ final TextStyle sectionTitleTextStyle = GoogleFonts.cairo(
     fontWeight: FontWeight.w400,
     color: textColor,
     fontSize: 20);
+final TextStyle welcomTitle = TextStyle(
+    fontFamily: 'cairo',
+    textBaseline: TextBaseline.alphabetic,
+    fontWeight: FontWeight.bold,
+    color: textColor,
+    fontSize: 30);
+final TextStyle welcomDescription = TextStyle(
+    fontFamily: 'cairo',
+    textBaseline: TextBaseline.alphabetic,
+    fontWeight: FontWeight.normal,
+    color: textColor,
+    fontSize: 17);
+// TextStyle df = TextStyle(fontFamily: GoogleFonts.cairo());

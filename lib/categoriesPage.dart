@@ -30,9 +30,6 @@ class MainStorePage extends StatefulWidget {
 class _MainStorePageState extends State<MainStorePage> {
   @override
   Widget build(BuildContext context) {
-    String svgAsset = 'images/ilus.svg';
-    print('width${MediaQuery.of(context).size.width}');
-    print('he${MediaQuery.of(context).size.height}');
     return Scaffold(
         bottomNavigationBar: SizedBox(height: 80, child: BottomNav()),
         backgroundColor: Color(0xff93b5c6),

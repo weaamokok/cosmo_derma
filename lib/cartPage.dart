@@ -18,16 +18,16 @@ class MainStoreBackground extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MainStorePage();
+    return CartPage();
   }
 }
 
-class MainStorePage extends StatefulWidget {
+class CartPage extends StatefulWidget {
   @override
-  _MainStorePageState createState() => _MainStorePageState();
+  _CartPageState createState() => _CartPageState();
 }
 
-class _MainStorePageState extends State<MainStorePage> {
+class _CartPageState extends State<CartPage> {
   @override
   Widget build(BuildContext context) {
     String svgAsset = 'images/ilus.svg';

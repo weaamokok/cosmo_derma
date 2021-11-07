@@ -23,6 +23,7 @@ class _BottomNavState extends State<BottomNav> {
       onTap: (value) {
         setState(() {
           currentIndexOfNav = value;
+          Navigator.pushNamed(context, '$currentIndexOfNav');
         });
       },
       items: [

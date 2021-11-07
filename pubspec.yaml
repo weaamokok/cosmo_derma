@@ -31,7 +31,8 @@ dependencies:
   flutter_spinkit: ^5.1.0
   flutter_svg: ^0.22.0
   google_fonts: ^2.1.0
-  # flutter_svg: ^0.23.0
+  concentric_transition: ^1.0.1
+  
 
 dev_dependencies:
   flutter_test:
