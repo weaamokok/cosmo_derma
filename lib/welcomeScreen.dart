@@ -90,7 +90,7 @@ class _ConcentricTransitionState extends State<ConcentricTransition> {
           ],
           curve: Curves.ease,
           duration: Duration(seconds: 1),
-          itemBuilder: (index, value) {
+          itemBuilder: (index) {
             PageData page = pages[index % pages.length];
             return Center(
               child: Container(
